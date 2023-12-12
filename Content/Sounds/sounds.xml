@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <sounds>
+    <footstep_armor_exosuit file="%ModDir%/Content/Sounds/Footsteps/Armor/FootstepExosuit1.ogg" volume="1.5" range="700" />
+    <footstep_armor_exosuit file="%ModDir%/Content/Sounds/Footsteps/Armor/FootstepExosuit2.ogg" volume="1.5" range="700" />
+    <footstep_armor_exosuit file="%ModDir%/Content/Sounds/Footsteps/Armor/FootstepExosuit3.ogg" volume="1.5" range="700" />
+    <footstep_armor_exosuit file="%ModDir%/Content/Sounds/Footsteps/Armor/FootstepExosuit4.ogg" volume="1.5" range="700" />
+    <footstep_armor_exosuit_clown file="%ModDir%/Content/Sounds/Footsteps/Armor/FootstepExoClown1.ogg" volume="1.5" range="700" />
+    <footstep_armor_exosuit_clown file="%ModDir%/Content/Sounds/Footsteps/Armor/FootstepExoClown2.ogg" volume="1.5" range="700" />
+    <footstep_armor_exosuit_clown file="%ModDir%/Content/Sounds/Footsteps/Armor/FootstepExoClown3.ogg" volume="1.5" range="700" />
+    <footstep_armor_exosuit_clown file="%ModDir%/Content/Sounds/Footsteps/Armor/FootstepExoClown4.ogg" volume="1.5" range="700" />
+    <impact_fuelrod file="%ModDir%/Content/Sounds/Impact/FuelRodImpact1.ogg" range="600" />
+    <impact_fuelrod file="%ModDir%/Content/Sounds/Impact/FuelRodImpact2.ogg" range="600" />
+    <impact_fuelrod file="%ModDir%/Content/Sounds/Impact/FuelRodImpact3.ogg" range="600" />
+    <impact_fuelrod file="%ModDir%/Content/Sounds/Impact/FuelRodImpact4.ogg" range="600" />
+    <impact_fuelrod file="%ModDir%/Content/Sounds/Impact/FuelRodImpact5.ogg" range="600" />
+    <impact_fuelrod file="%ModDir%/Content/Sounds/Impact/FuelRodImpact6.ogg" range="600" />
+  </sounds>
+</Override>

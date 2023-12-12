@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefabs>
+  <ElectricWater startsizemin="0.6,0.6" startsizemax="1,1" sizechangemin="0.1,0.1" sizechangemax="0.3,0.3" startrotationmin="0" startrotationmax="360" startcolor="255,255,255,200" endcolor="255,255,255,0" lifetime="0.2" growtime="0.1" usecollision="True" deleteoncollision="True" drawtarget="Water" velocitychange="0,0.1" startdelaymin="0" startdelaymax="0" angularvelocitymin="0" angularvelocitymax="0" rotatetodirection="False" drag="0" waterdrag="0" velocitychangewater="0,0" collisionradius="1" friction="0.5" restitution="0.5" blendstate="Additive" animduration="1" loopanim="True" drawontop="False" lifetimemin="0" middlecolor="255,255,255,255" usemiddlecolor="False" priority="0">
+    <sprite texture="Content/Particles/LightningParticleSheet.png" sourcerect="0,0,256,256" />
+    <sprite texture="Content/Particles/LightningParticleSheet.png" sourcerect="0,256,256,256" />
+    <sprite texture="Content/Particles/LightningParticleSheet.png" sourcerect="256,0,256,256" />
+    <sprite texture="Content/Particles/LightningParticleSheet.png" sourcerect="256,256,256,256" />
+  </ElectricWater>
+</prefabs>

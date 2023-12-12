@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Hazardous Junction Boxes" steamworkshopid="3090918505" corepackage="false" modversion="1.0.4" gameversion="1.1.19.3" installtime="1700591075" expectedhash="762BE70E3D9990B13AD477FCD0B3CC8A">
+  <Afflictions file="%ModDir%/Content/Afflictions.xml" />
+  <Item file="%ModDir%/Content/Items/Electricity/poweritems.xml" />
+  <Particles file="%ModDir%/Content/Particles/ParticlePrefabs.xml" />
+  <Sounds file="%ModDir%/Content/Sounds/sounds.xml" />
+</contentpackage>

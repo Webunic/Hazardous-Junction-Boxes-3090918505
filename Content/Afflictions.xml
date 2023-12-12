@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+  <Override>
+    <Affliction name="Shocked" identifier="shocked" description="Bzzzzt" type="debuff" maxstrength="20" limbspecific="false" indicatorlimb="Head" showiconthreshold="1000" showicontoothersthreshold="1000" showinhealthscannerthreshold="1000" healableinmedicalclinic="false">
+      <Effect minstrength="0" maxstrength="20" strengthchange="-1">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+          <Affliction identifier="shock1" strength="100" probability="0.3" />
+          <Affliction identifier="shock2" strength="100" probability="0.3" />
+          <Affliction identifier="shock3" strength="100" probability="0.3" />
+          <Affliction identifier="shock4" strength="100" probability="0.3" />
+        </StatusEffect>
+        <StatusEffect target="Character" interval="1" duration="1.1">
+          <Conditional IsLocalPlayer="true" />
+          <Sound file="%ModDir%/Content/Sounds/Ambient/ShockLoop.ogg" volume="5" loop="true" dontmuffle="true" />
+        </StatusEffect>
+      </Effect>
+    </Affliction>
+  </Override>
+  <Override>
+    <Affliction identifier="shock1" showiconthreshold="1000" showinhealthscannerthreshold="1000" maxstrength="100" afflictionoverlayalphaislinear="true">
+      <Effect minstrength="0" maxstrength="100" strengthchange="-300" />
+      <AfflictionOverlay texture="%ModDir%/Content/UI/Shock1.png" />
+    </Affliction>
+  </Override>
+  <Override>
+    <Affliction identifier="shock2" showiconthreshold="1000" showinhealthscannerthreshold="1000" maxstrength="100" afflictionoverlayalphaislinear="true">
+      <Effect minstrength="0" maxstrength="100" strengthchange="-300" />
+      <AfflictionOverlay texture="%ModDir%/Content/UI/Shock2.png" />
+    </Affliction>
+  </Override>
+  <Override>
+    <Affliction identifier="shock3" showiconthreshold="1000" showinhealthscannerthreshold="1000" maxstrength="100" afflictionoverlayalphaislinear="true">
+      <Effect minstrength="0" maxstrength="100" strengthchange="-300" />
+      <AfflictionOverlay texture="%ModDir%/Content/UI/Shock3.png" />
+    </Affliction>
+  </Override>
+  <Override>
+    <Affliction identifier="shock4" showiconthreshold="1000" showinhealthscannerthreshold="1000" maxstrength="100" afflictionoverlayalphaislinear="true">
+      <Effect minstrength="0" maxstrength="100" strengthchange="-300" />
+      <AfflictionOverlay texture="%ModDir%/Content/UI/Shock4.png" />
+    </Affliction>
+  </Override>
+  <Override>
+    <Affliction name="Shocked" identifier="junctionshocked" description="Bzzzzt" type="debuff" maxstrength="20" limbspecific="false" indicatorlimb="Head" showiconthreshold="1000" showicontoothersthreshold="1000" showinhealthscannerthreshold="1000" healableinmedicalclinic="false">
+      <Effect minstrength="0" maxstrength="20" strengthchange="-1">
+        <StatusEffect target="Character" interval="0.1" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+          <Affliction identifier="shock1" strength="100" probability="0.3" />
+          <Affliction identifier="shock2" strength="100" probability="0.3" />
+          <Affliction identifier="shock3" strength="100" probability="0.3" />
+          <Affliction identifier="shock4" strength="100" probability="0.3" />
+        </StatusEffect>
+        <StatusEffect target="Character" interval="1" duration="1.1">
+          <Conditional IsLocalPlayer="true" />
+          <Sound file="%ModDir%/Content/Sounds/Ambient/ShockLoop.ogg" volume="5" loop="true" dontmuffle="true" />
+        </StatusEffect>
+        <StatusEffect target="Character" interval="0.8">
+          <Conditional InWater="eq false" />
+          <ReduceAffliction identifier="junctionshocked" amount="100" />
+        </StatusEffect>
+      </Effect>
+    </Affliction>
+  </Override>
+</Afflictions>
